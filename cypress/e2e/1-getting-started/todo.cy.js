@@ -14,7 +14,7 @@ describe('example to-do app', () => {
     const newItem = 'Feed the cat'
     cy.get('[data-test=new-todo]').type(`${newItem}{enter}`)
     cy.get('.todo-list li')
-      .should('have.length', 3)
+      .should('have.length', 4)
       .last()
       .should('have.text', newItem)
   })
