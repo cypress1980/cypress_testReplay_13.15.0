@@ -22,7 +22,7 @@ describe("API QAAutomationLabs.com", { testIsolation: false }, () => {
         name: "morpheus",
         job: "zion resident",
       }).should((response) => {
-        expect(response.status).to.eq(200);
+        expect(response.status).to.eq(203);
       });
     });
   
