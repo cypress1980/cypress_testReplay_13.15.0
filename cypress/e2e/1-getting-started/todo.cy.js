@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-describe('example to-do app', () => {
+describe('example to-do apps', () => {
   beforeEach(() => {
     cy.visit('https://example.cypress.io/todo')
   })
